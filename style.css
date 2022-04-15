@@ -40,6 +40,12 @@ button:hover {
     color: #f8fafc;
 }
 
+.range {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
 .box {
     border: 0.5px solid black;
     background-color: #f8fafc;
@@ -49,7 +55,9 @@ button:hover {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
+.item {
+    border: 1px solid red;
+}
 
 .footer {
     font-size: 15px;

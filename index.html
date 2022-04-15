@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="etch-a-sketch.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto:wght@500&family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
@@ -21,10 +22,14 @@
         <button>Rainbow mode</button>
         <button>Eraser</button>
         <button>Reset</button>
+        <div class="range">
+            <input type="range" class="cell-range" name="cells" min="1" max="64">
+        </div>
     </div>
 
     <!--BOX or Container-->
-    <div class="box"></div>
+    <div id="container" class="box">
+    </div>
 
     <!--Footer-->
     <div class="footer">
