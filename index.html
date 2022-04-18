@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="etch-a-sketch.js" defer></script>
+    <link rel="stylesheet" href="stylesheet/style.css">
+    <link rel="icon" href="images/palette.png">
+    <script src="javascript/etch-a-sketch.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto:wght@500&family=Rubik+Microbe&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
@@ -17,11 +18,11 @@
 
     <!--buttons option-->
     <div class="btn">
-        <input type="color">
-        <button>Black mode</button>
-        <button>Rainbow mode</button>
-        <button>Eraser</button>
-        <button>Reset</button>
+        <input type="color" class="color-pick">
+        <button class="black">Black mode</button>
+        <button class="rain-bow">Rainbow mode</button>
+        <button class="eraser">Eraser</button>
+        <button class="reset">Reset</button>
         <div class="range">
             <input type="range" class="cell-range" name="cells" min="1" max="64">
         </div>
